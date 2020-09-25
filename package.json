@@ -1,0 +1,26 @@
+{
+  "name": "Blockchain-Ecommerce-App",
+  "version": "1.0.0",
+  "description": "An Blockchain Based Ecommerce App",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashbhardwaj04/Blockchain-Ecommerce-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashbhardwaj04/Blockchain-Ecommerce-App/issues"
+  },
+  "homepage": "https://github.com/akashbhardwaj04/Blockchain-Ecommerce-App#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  }
+}
