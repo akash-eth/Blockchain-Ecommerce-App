@@ -16,8 +16,8 @@ contract PaymentProcessor {
     );
 
     constructor (address adminAddress, address daiAddress) public {
-        adminAddress = admin;
-        daiAddress = IERC20(dai);
+        admin = adminAddress;
+        dai = IERC20(daiAddress);
     }
 
     function pay(uint amount, uint paymentId) external {
