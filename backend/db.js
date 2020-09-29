@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-    'Your Connection String',
+    "mongodb://localhost:27017/ecommerce-blockchain",
     {useNewUrlParser: true, useUnifiedTopology: true}
 );
 

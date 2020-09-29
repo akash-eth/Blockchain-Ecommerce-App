@@ -14,7 +14,7 @@ router.get('/api/getPaymentId/:itemId', async ctx => {
 
 app
     .use(cors())
-    .use(router.router())
+    .use(router.routes())
     .use(router.allowedMethods());
 
 app.listen(4000, () => {
