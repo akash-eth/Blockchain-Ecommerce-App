@@ -1,3 +1,2 @@
-import {ethers, Contract} from 'ethers';
-
+import {ethers, Contracts} from 'ethers';
 import PaymentProcessor from '../../build/contracts/PaymentProcessor.json';
